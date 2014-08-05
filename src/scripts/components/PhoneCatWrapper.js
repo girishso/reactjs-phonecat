@@ -16,7 +16,7 @@ var PhoneCatWrapper = React.createClass({
         <div class="col-md-10">
           <ul class="phones">
           <li class="thumbnail phone-listing">
-            <a href="#/phones/motorola-xoom-with-wi-fi" class="thumb"><img src="/images/phones/motorola-xoom-with-wi-fi.0.jpg"></a>
+            <a href="#/phones/motorola-xoom-with-wi-fi" class="thumb"><img src="/images/phones/motorola-xoom-with-wi-fi.0.jpg" /></a>
             <a href="#/phones/motorola-xoom-with-wi-fi" >Motorola XOOM™ with Wi-Fi</a>
             <p>The Next, Next Generation
 
@@ -24,7 +24,7 @@ var PhoneCatWrapper = React.createClass({
             </p>
           </li>
           <li class="thumbnail phone-listing">
-            <a href="#/phones/motorola-xoom-with-wi-fi" class="thumb"><img src="/images/phones/motorola-xoom-with-wi-fi.0.jpg"></a>
+            <a href="#/phones/motorola-xoom-with-wi-fi" class="thumb"><img src="/images/phones/motorola-xoom-with-wi-fi.0.jpg" /></a>
             <a href="#/phones/motorola-xoom-with-wi-fi" >Motorola XOOM™ with Wi-Fi</a>
             <p>The Next, Next Generation
 
@@ -32,7 +32,7 @@ var PhoneCatWrapper = React.createClass({
             </p>
           </li>
           <li class="thumbnail phone-listing">
-            <a href="#/phones/motorola-xoom-with-wi-fi" class="thumb"><img src="/images/phones/motorola-xoom-with-wi-fi.0.jpg"></a>
+            <a href="#/phones/motorola-xoom-with-wi-fi" class="thumb"><img src="/images/phones/motorola-xoom-with-wi-fi.0.jpg" /></a>
             <a href="#/phones/motorola-xoom-with-wi-fi" >Motorola XOOM™ with Wi-Fi</a>
             <p>The Next, Next Generation
 
