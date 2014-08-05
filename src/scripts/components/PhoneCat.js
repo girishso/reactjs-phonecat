@@ -10,7 +10,7 @@ var PhoneCat = React.createClass({
           <SearchForm />
         </div>
         <div className="col-md-10">
-          <PhonesList />
+          <PhonesList phones={this.props.phones} />
         </div>
       </div>
     )
