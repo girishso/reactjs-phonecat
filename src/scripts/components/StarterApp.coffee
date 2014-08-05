@@ -7,7 +7,7 @@ StarterApp = React.createClass
     `(
       <div className='main'>
         <Masthead title={this.props.name}>
-          Gulp is used for orchestrating
+          Welcome to React!
         </Masthead>
       </div>
     )`
