@@ -2,14 +2,13 @@
 
 var Phone = React.createClass({
   render: function() {
+    var phone = this.props.phone;
+
     return (
       <li className="thumbnail phone-listing">
-        <a href="#/phones/motorola-xoom-with-wi-fi" className="thumb"><img src="images/phones/motorola-xoom-with-wi-fi.0.jpg" /></a>
-        <a href="#/phones/motorola-xoom-with-wi-fi" >Motorola XOOM™ with Wi-Fi</a>
-        <p>The Next, Next Generation
-
-          Experience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).
-        </p>
+        <a href="#" className="thumb"><img src={phone.imageUrl} /></a>
+        <a href="#">{phone.name}</a>
+        <p>{phone.snippet}</p>
       </li>
     )
   }
