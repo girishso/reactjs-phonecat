@@ -48,10 +48,10 @@
     },
     "id": "nexus-s",
     "images": [
-        "/images/phones/nexus-s.0.jpg",
-        "/images/phones/nexus-s.1.jpg",
-        "/images/phones/nexus-s.2.jpg",
-        "/images/phones/nexus-s.3.jpg"
+        "images/phones/nexus-s.0.jpg",
+        "images/phones/nexus-s.1.jpg",
+        "images/phones/nexus-s.2.jpg",
+        "images/phones/nexus-s.3.jpg"
     ],
     "name": "Nexus S",
     "sizeAndWeight": {

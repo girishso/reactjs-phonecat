@@ -42,9 +42,9 @@
     },
     "id": "t-mobile-g2",
     "images": [
-        "/images/phones/t-mobile-g2.0.jpg",
-        "/images/phones/t-mobile-g2.1.jpg",
-        "/images/phones/t-mobile-g2.2.jpg"
+        "images/phones/t-mobile-g2.0.jpg",
+        "images/phones/t-mobile-g2.1.jpg",
+        "images/phones/t-mobile-g2.2.jpg"
     ],
     "name": "T-Mobile G2",
     "sizeAndWeight": {

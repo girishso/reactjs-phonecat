@@ -51,13 +51,71 @@
 	require(2)
 	require(5)
 
-	var PhoneCatWrapper = require(!(function webpackMissingModule() { throw new Error("Cannot find module \"./components/PhoneCatWrapper.js\""); }()))
+	var PhoneCatWrapper = require(1)
 
 	React.renderComponent(PhoneCatWrapper(null), document.getElementById('app'))
 
 
 /***/ },
-/* 1 */,
+/* 1 */
+/***/ function(module, exports, require) {
+
+	/** @jsx React.DOM */
+
+	var PhoneCatWrapper = React.createClass({displayName: 'PhoneCatWrapper',
+	  render: function() {
+	    return (
+	      React.DOM.div({className: "row"}, 
+	        React.DOM.div({className: "col-md-2"}, 
+	          "Search:", 
+	          React.DOM.input({type: "text"}), 
+	          "Sort by:", 
+	          React.DOM.select(null, 
+	            React.DOM.option({value: "name"}, "Alphabetical"), 
+	            React.DOM.option({value: "age"}, "Newest")
+	          )
+	        ), 
+	        React.DOM.div({className: "col-md-10"}, 
+	          React.DOM.ul({className: "phones"}, 
+	          React.DOM.li({className: "thumbnail phone-listing"}, 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "/images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi"}, "Motorola XOOM™ with Wi-Fi"), 
+	            React.DOM.p(null, "The Next, Next Generation" + ' ' +
+
+	              "Experience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
+	            )
+	          ), 
+	          React.DOM.li({className: "thumbnail phone-listing"}, 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "/images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi"}, "Motorola XOOM™ with Wi-Fi"), 
+	            React.DOM.p(null, "The Next, Next Generation" + ' ' +
+
+	              "Experience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
+	            )
+	          ), 
+	          React.DOM.li({className: "thumbnail phone-listing"}, 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "/images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi"}, "Motorola XOOM™ with Wi-Fi"), 
+	            React.DOM.p(null, "The Next, Next Generation" + ' ' +
+
+	              "Experience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
+	            )
+	          )
+
+	        )
+	        )
+	      )
+
+	    )
+
+	  }
+
+	});
+
+	module.exports = PhoneCatWrapper;
+
+
+/***/ },
 /* 2 */
 /***/ function(module, exports, require) {
 

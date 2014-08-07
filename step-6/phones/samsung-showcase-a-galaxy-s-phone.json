@@ -42,9 +42,9 @@
     },
     "id": "samsung-showcase-a-galaxy-s-phone",
     "images": [
-        "/images/phones/samsung-showcase-a-galaxy-s-phone.0.jpg",
-        "/images/phones/samsung-showcase-a-galaxy-s-phone.1.jpg",
-        "/images/phones/samsung-showcase-a-galaxy-s-phone.2.jpg"
+        "images/phones/samsung-showcase-a-galaxy-s-phone.0.jpg",
+        "images/phones/samsung-showcase-a-galaxy-s-phone.1.jpg",
+        "images/phones/samsung-showcase-a-galaxy-s-phone.2.jpg"
     ],
     "name": "Samsung Showcase\u2122 a Galaxy S\u2122 phone",
     "sizeAndWeight": {

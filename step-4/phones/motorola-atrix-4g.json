@@ -41,10 +41,10 @@
     },
     "id": "motorola-atrix-4g",
     "images": [
-        "/images/phones/motorola-atrix-4g.0.jpg",
-        "/images/phones/motorola-atrix-4g.1.jpg",
-        "/images/phones/motorola-atrix-4g.2.jpg",
-        "/images/phones/motorola-atrix-4g.3.jpg"
+        "images/phones/motorola-atrix-4g.0.jpg",
+        "images/phones/motorola-atrix-4g.1.jpg",
+        "images/phones/motorola-atrix-4g.2.jpg",
+        "images/phones/motorola-atrix-4g.3.jpg"
     ],
     "name": "MOTOROLA ATRIX\u2122 4G",
     "sizeAndWeight": {

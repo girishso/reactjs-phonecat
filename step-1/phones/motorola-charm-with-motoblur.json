@@ -42,9 +42,9 @@
     },
     "id": "motorola-charm-with-motoblur",
     "images": [
-        "/images/phones/motorola-charm-with-motoblur.0.jpg",
-        "/images/phones/motorola-charm-with-motoblur.1.jpg",
-        "/images/phones/motorola-charm-with-motoblur.2.jpg"
+        "images/phones/motorola-charm-with-motoblur.0.jpg",
+        "images/phones/motorola-charm-with-motoblur.1.jpg",
+        "images/phones/motorola-charm-with-motoblur.2.jpg"
     ],
     "name": "Motorola CHARM\u2122 with MOTOBLUR\u2122",
     "sizeAndWeight": {

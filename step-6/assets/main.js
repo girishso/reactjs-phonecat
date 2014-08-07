@@ -71,7 +71,7 @@
 	  },
 
 	  componentDidMount: function() {
-	    $.getJSON('/reactjs-phonecat/step-6/phones/phones.json', (function(data) {
+	    $.getJSON('phones/phones.json', (function(data) {
 	      this.setState({phones: data});
 	    }).bind(this));
 
@@ -247,7 +247,7 @@
 
 	    return (
 	      React.DOM.li({className: "thumbnail phone-listing"}, 
-	        React.DOM.a({href: "#", className: "thumb"}, React.DOM.img({src: "/reactjs-phonecat/step-6"+phone.imageUrl})), 
+	        React.DOM.a({href: "#", className: "thumb"}, React.DOM.img({src: phone.imageUrl})), 
 	        React.DOM.a({href: "#"}, phone.name), 
 	        React.DOM.p(null, phone.snippet)
 	      )
