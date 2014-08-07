@@ -78,7 +78,7 @@
 	        React.DOM.div({className: "col-md-10"}, 
 	          React.DOM.ul({className: "phones"}, 
 	          React.DOM.li({className: "thumbnail phone-listing"}, 
-	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "/images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
 	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi"}, "Motorola XOOM™ with Wi-Fi"), 
 	            React.DOM.p(null, "The Next, Next Generation" + ' ' +
 
@@ -86,7 +86,7 @@
 	            )
 	          ), 
 	          React.DOM.li({className: "thumbnail phone-listing"}, 
-	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "/images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
 	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi"}, "Motorola XOOM™ with Wi-Fi"), 
 	            React.DOM.p(null, "The Next, Next Generation" + ' ' +
 
@@ -94,7 +94,7 @@
 	            )
 	          ), 
 	          React.DOM.li({className: "thumbnail phone-listing"}, 
-	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "/images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
+	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi", className: "thumb"}, React.DOM.img({src: "images/phones/motorola-xoom-with-wi-fi.0.jpg"})), 
 	            React.DOM.a({href: "#/phones/motorola-xoom-with-wi-fi"}, "Motorola XOOM™ with Wi-Fi"), 
 	            React.DOM.p(null, "The Next, Next Generation" + ' ' +
 
