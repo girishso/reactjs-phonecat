@@ -2,6 +2,13 @@
 var ImageGallery = require("./ImageGallery.js");
 
 var PhoneDetails = React.createClass({
+
+  getInitialState: function() {
+    return {
+      active_image: ''
+    }
+  },
+
   checkmark: function(truthy) {
     if (truthy) {
       return String.fromCharCode(10003);
@@ -10,21 +17,28 @@ var PhoneDetails = React.createClass({
     }
   },
 
+  handleThumbClick: function(image_path) {
+    this.setState( {
+        active_image: image_path
+      }
+    )
+  },
+
   render: function() {
     var phone = this.props.phone;
     var dimensions = phone.sizeAndWeight.dimensions.map(function(dimension, i) {
       return <dd key={i}>{ dimension }</dd>;
     });
-    
+
     return (
       <section id="main">
         <div className="phone-images">
-          <img ref="phone_image" src={ this.props.phone.images[0]} className="phone" />
+          <img ref="phone_image" src={ this.state.active_image || this.props.phone.images[0]} className="phone" />
         </div>
         <h1>{phone.name}</h1>
         <p>{phone.description}</p>
 
-        <ImageGallery images={phone.images} />
+        <ImageGallery images={phone.images} handleThumbClick={this.handleThumbClick} />
 
         <ul className="specs">
           <li>
