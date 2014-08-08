@@ -1,4 +1,5 @@
 /** @jsx React.DOM */
+Link = ReactRouter.Link;
 
 var Phone = React.createClass({
   render: function() {
@@ -6,8 +7,12 @@ var Phone = React.createClass({
 
     return (
       <li className="thumbnail phone-listing">
-        <a href="#" className="thumb"><img src={phone.imageUrl} /></a>
-        <a href="#">{phone.name}</a>
+        <Link to="phone" phoneId={phone.id} className="thumb" >
+          <img src={phone.imageUrl} />
+        </Link>
+        <Link to="phone" phoneId={phone.id} >
+          {phone.name}
+        </Link>
         <p>{phone.snippet}</p>
       </li>
     )

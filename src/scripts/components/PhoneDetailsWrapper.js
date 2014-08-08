@@ -3,18 +3,18 @@
 var PhoneDetailsWrapper = React.createClass({
   render: function() {
     return (
-      <section id="main"><div class="phone-images"><img src="images/phones/motorola-xoom-with-wi-fi.3.jpg" class="phone" />
+      <section id="main"><div className="phone-images"><img src="images/phones/motorola-xoom-with-wi-fi.3.jpg" className="phone" />
       </div>
       <h1>Motorola XOOM™ with Wi-Fi</h1>
       <p>Motorola XOOM with Wi-Fi has a super-powerful dual-core processor and Android™ 3.0 (Honeycomb) — the Android platform designed specifically for tablets. With its 10.1-inch HD widescreen display, you’ll enjoy HD video in a thin, light, powerful and upgradeable tablet.</p>
-      <ul class="phone-thumbs"><li><img src="images/phones/motorola-xoom-with-wi-fi.0.jpg" />
+      <ul className="phone-thumbs"><li><img src="images/phones/motorola-xoom-with-wi-fi.0.jpg" />
       </li><li><img src="images/phones/motorola-xoom-with-wi-fi.1.jpg" />
       </li><li><img src="images/phones/motorola-xoom-with-wi-fi.2.jpg" />
       </li><li><img src="images/phones/motorola-xoom-with-wi-fi.3.jpg" />
       </li><li><img src="images/phones/motorola-xoom-with-wi-fi.4.jpg" />
       </li><li><img src="images/phones/motorola-xoom-with-wi-fi.5.jpg" />
       </li></ul>
-      <ul class="specs"><li>
+      <ul className="specs"><li>
           <span>Availability and Networks</span>
           <dl>
               <dt>Availability</dt>
