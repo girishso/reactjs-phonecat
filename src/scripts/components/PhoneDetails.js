@@ -24,7 +24,7 @@ var PhoneDetails = React.createClass({
         <h1>{phone.name}</h1>
         <p>{phone.description}</p>
 
-        <ImageGallery />
+        <ImageGallery images={phone.images} />
 
         <ul className="specs">
           <li>
