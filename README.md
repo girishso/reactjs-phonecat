@@ -1,6 +1,12 @@
 # PhoneCat React JS Tutorail App
 
 
+[Live Demo](http://girishso.github.io/reactjs-phonecat/step-12/#/phones)
+
+
+[Accompanying blog post](http://blog.cuberoot.in/angular-phonecat-tutorial-in-react-js)
+
+
 ## Up and Running
 First, clone the repo...
 
